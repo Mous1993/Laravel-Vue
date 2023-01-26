@@ -20,6 +20,7 @@
         "vue": "^3.2.45"
     },
     "dependencies": {
+        "@inertiajs/progress": "github:inertiajs/progress",
         "@inertiajs/vue3": "^1.0.0"
     }
 }
