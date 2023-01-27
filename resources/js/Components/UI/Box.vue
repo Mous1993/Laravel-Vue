@@ -9,7 +9,7 @@
       dark:text-gray-300
     "
   >
-    <div class="text-gray-500 font-medium">
+    <div class="text-gray-500 font-medium mb-1">
       <slot name="header" />
     </div>
     <slot />
