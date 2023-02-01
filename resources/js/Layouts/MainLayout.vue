@@ -36,7 +36,7 @@ import { computed } from "vue"
 import { Link, usePage } from "@inertiajs/vue3"
 
 const page = usePage()
-const flashSuccess = computed(() => page.props.flash.success)
-const user = computed(() => page.props.user[0])
+const flashSuccess = computed(() => usePage().props.flash.success)
+const user = computed(() => usePage().props.user[0])
 
 </script>
